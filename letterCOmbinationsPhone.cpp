@@ -19,6 +19,7 @@ class Solution {
 private:
 vector<string> solve(vector<string> &str1,string str2){
     vector<string> ans;
+    
     for (auto it : str1){
         for(auto it2 : str2){
             ans.push_back(it+it2);
